@@ -6,23 +6,25 @@ Creating well structured prompts using labels and XML tags helps models parse in
 
 Example: TASK: Write a product description   
 	     AUDIENCE: Tech-savvy millennials   
-     TONE: Casual and enthusiastic
+     TONE: Casual and enthusiastic 
 
-**XML tags** create structured containers of information within the prompt that are readable and easier to parse for both the human and the model. XML tags use \<angle brackets\> to open or  \</angle brackets with a slash\> close each container. 
+**XML tags** create structured containers of information within the prompt that are readable and easier to parse for both the human and the model. XML tags use <angle brackets\> to open or  </angle brackets with a slash> close each container. 
 
-Example: \<context\>   
-	    You are an expert travel blogger with 10 years of experience.   
-    \</context\>  
+Example:
+
+\<context\>   
+You are an expert travel blogger with 10 years of experience.   
+\</context\>  
      
-    \<task\>   
-    Write a 200-word review of a fictional restaurant.   
-    \</task\>
+ \<task\>   
+Write a 200-word review of a fictional restaurant.   
+\</task\>
 
-    \<constraints\>   
-     \- Must mention at least 3 specific dishes   
-     \- Include one minor criticism   
-     \- End with a rating out of 5 stars   
-   \</constraints\>
+\<constraints\>   
+\- Must mention at least 3 specific dishes   
+\- Include one minor criticism   
+\- End with a rating out of 5 stars   
+\</constraints\>
 
 Best Practices for using XML tags: 
 
