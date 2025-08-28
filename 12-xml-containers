@@ -1,0 +1,70 @@
+# The Chef’s Containers
+
+Creating well structured prompts using labels and XML tags helps models parse information effectively, follow complex instructions, and generate more consistent outputs. 
+
+**Labels**, such as headings, organize the prompt and make it more readable 
+
+Example: TASK: Write a product description   
+	     AUDIENCE: Tech-savvy millennials   
+     TONE: Casual and enthusiastic
+
+**XML tags** create structured containers of information within the prompt that are readable and easier to parse for both the human and the model. XML tags use \<angle brackets\> to open or  \</angle brackets with a slash\> close each container. 
+
+Example: \<context\>   
+	    You are an expert travel blogger with 10 years of experience.   
+    \</context\>  
+     
+    \<task\>   
+    Write a 200-word review of a fictional restaurant.   
+    \</task\>
+
+    \<constraints\>   
+     \- Must mention at least 3 specific dishes   
+     \- Include one minor criticism   
+     \- End with a rating out of 5 stars   
+   \</constraints\>
+
+Best Practices for using XML tags: 
+
+* Always remember to close your tags.  
+* Use letters, numbers, and underscores only. Avoid space and special characters. \<for\_example\>  
+* Create separate containers for instructions and content/context.   
+* Use clear descriptive names that make the tags self explanatory. 
+
+**Challenge:** Create structured prompts using XML tags that ask an LLM to generate a recipe with very specific requirements. 
+
+## Round 1
+
+Recipe:  Cesar Salad
+
+Write the basic structure with only essential elements. Include the \<task\> and the \<requirements\>. 
+
+Example: 
+
+\<task\>   
+Write a recipe for chocolate chip cookies.   
+\</task\> 
+
+\<requirements\>  
+ \- Makes 24 cookies  
+ \- Include ingredient list  
+ \- Include step-by-step instructions   
+\</requirements\>
+
+## Round 2
+
+Recipe:  Stir-Fried Noodles
+
+Write the basic structure and add some additional context. Include the \<task\> and the \<requirements\>. Add context such as a \<role\> or some \<ingredients\>. 
+
+## Round 3
+
+Recipe:  Homemade Bread
+
+Write the basic structure and add some additional context. Break down the requirements and constraints into different containers. Include the \<task\> and the \<requirements\>. Add context such as a \<role\> or some \<ingredients\>. Create separate containers for the \<recipe\_requirements\> and the \<format\_requirements\>. 
+
+## Round 4
+
+Recipe:  Steak and Veggie Dinner 
+
+Write the basic structure and add some additional context. Break down the requirements and constraints into different containers. Include the \<task\> and the \<requirements\>. Add context such as a \<role\> or some \<ingredients\>. Create separate containers for the \<recipe\_requirements\> and the \<format\_requirements\>. 
