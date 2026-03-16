@@ -12,7 +12,7 @@ JSON (JavaScript Object Notation) is a lightweight data format that uses:
 
 **Example Prompt:** Create a JSON structured object for the following character profile with only the following information: Alex Chen, age 28, Space veterinarian, from Mars Colony Beta, no super powers, likes collecting cards and skateboarding
 
-**Example Structure:**   
+**Example Structured Output:**   
 {  
   "name": "Alex Chen",  
   "age": 28,  
