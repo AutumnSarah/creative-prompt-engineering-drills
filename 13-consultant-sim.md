@@ -2,7 +2,7 @@
 
 **Challenge:** Create system prompts to simulate conversations with different professionals (lawyer, doctor, financial advisor) or character roles while maintaining appropriate expertise boundaries and disclaimers.
 
-**BONUS CHALLENGE**: Give the role to the LLM and then test it with each of the test prompts. Evaluate if it stayed in character and adhered to the instructions and constraints. 
+**BONUS CHALLENGE**: Give the role to the LLM and then test it with each of the test prompts. Evaluate if it stayed in character and adhered to the instructions and constraints. (Hint: you can do this easily inside [google ai studio](https://ai.google.dev/gemini-api/docs/ai-studio-quickstart) by pasting the system prompt into the “system instructions” box and the test prompt into the prompt box.)
 
 Example: 
 
